@@ -1,0 +1,4 @@
+#!/bin/bash
+echo Running fake MACOS ranlib
+echo ${@}
+/usr/bin/true

@@ -1,0 +1,14 @@
+#!/bin/bash
+#if [ $1 = "cq" ] || [ $1 = "cr" ] || [ $1 = "cru" ] || [ $1 = "rc" ] || [ $1 = "crv" ]; then
+   AR=/usr/bin/libtool
+   AR_FLAGS="-static -o"
+   echo Running MACOS Libtool
+   echo $AR $AR_FLAGS ${@:2}
+   $AR $AR_FLAGS ${@:2}
+#else
+#   echo AR called with unknown arguments:  ${@}
+#   echo -e "\a"
+#   echo -e "\a"
+#   echo -e "\a"
+#   read -p "Press any key to resume ..."
+#fi

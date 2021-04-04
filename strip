@@ -1,0 +1,5 @@
+#!/bin/bash
+   STRIP=/usr/bin/strip
+   echo Running MACOS strip
+   echo $STRIP ${@}
+   $STRIP ${@}
